@@ -17,8 +17,7 @@ The billiard layout is broken into fundamental billiard "pieces". These are show
 
 ![](images/layout_explanation_img.jpg)
 
-Each billiard piece is represented by primitive shapes in `Processing`. For example, balls and holes are represented by a circles, edges and hole walls are represented by rectangles, bumps are represented by a shape where every vertex is individually pin-pointed to the screen. Angled pieces are shown as pixels where corresponding vertices of a bump have been selected. To find the pixels, the vector comprising the angled piece's vertices is discretised (more on this later).
-
+Each billiard piece is represented by primitive shapes in `Processing`. For example, **balls** and **holes** are represented by a **circles**, **edges** and **hole walls** are represented by **rectangles**, **bumps** are represented by **shapes** where every vertex is individually pin-pointed to the screen. **Angled pieces** are shown as **pixels** where corresponding vertices of a bump have been selected and the vector comprising the vertices has been discretised to find the correct pixels (more on this later).
 
 
 
