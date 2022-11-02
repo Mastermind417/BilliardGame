@@ -21,5 +21,11 @@ Each billiard piece is represented by primitive shapes in `Processing`. For exam
 
 ## Physics
 
+### Particle to Particle Interaction
+
+### Particle to Bump Interaction
+
+### Particle to Angled Piece Interaction
+
 
 
