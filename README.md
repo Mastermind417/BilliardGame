@@ -21,11 +21,14 @@ Each billiard piece is represented by primitive shapes in `Processing`. For exam
 
 ## Physics
 
-### Particle to Particle Interaction
+### Ball to Ball Interaction
+The ball to ball interaction consists of two steps: penetration resolution and collision resolution. For the first step, as soon as the ball are found to be intersecting each other, one of the intersecting balls is pushed back to its initial collision position. For the second step, the changes in velocities of the two balls is found using simplistic Newtonian conservation of momentum. Both penetration and collision resolutions can be found under the Collision System, *collisionSystem.pde*. 
 
-### Particle to Bump Interaction
+![](images/ballToBall.gif)
 
-### Particle to Angled Piece Interaction
+### Ball to Bump Interaction
+
+### Ball to Angled Piece Interaction
 
 
 
