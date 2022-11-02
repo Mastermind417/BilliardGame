@@ -25,19 +25,33 @@ Every "object" of the billiard game, i.e. a shape that interacts with other shap
 The penetration step and collision resolution can be found for every object to object interaction under the Collision System, *collisionSystem.pde*. There are three interactions that need to be simulated to achieve a functioning billiard game, these are **Ball to Ball**, **Ball to Bump** and **Ball to Angled Piece** interactions.
 
 ### Ball to Ball Interaction
+The ball to ball interaction is the most important interaction and defining aspect of this game. It is a sphere-sphere interaction or because we are in 2D, a *circle-cicle* interaction. Each ball can be though as a "particle" which has a circular shape and some mass. All balls have the same mass.
+
+![](images/ballToBall.gif)
+
 #### Penetration Resolution
 As soon as the balls are found to be intersecting each other, one of the intersecting balls is pushed back to its initial collision position.
 #### Collision Resolution
 The changes in velocities of the two balls is found using simplistic Newtonian conservation of momentum.
 
-![](images/ballToBall.gif)
-
 ### Ball to Bump Interaction
-#### Penetration Resolution
-#### Collision Resolution
+The ball to bump interaction can be thought as a *circle-line* interaction. The circle is the ball and the line is the outer line of the bump object.
+
 ![](images/ballToBump.gif)
 
+#### Penetration Resolution
+
+#### Collision Resolution
+
+
 ### Ball to Angled Piece Interaction
+The ball to Angled Piece Interaction is a little bit more complicated than the rest. The angle piece comprises of a series of pixels, so this interaction can be thought as a circle-point interaction. The resolution direction is found using the normal of the gradient of the vector that connects the firsy vertex of the angled piece to the second.
+
+![](images/ballToBump.gif)
+
+#### Penetration Resolution
+
+#### Collision Resolution
 
 
 
