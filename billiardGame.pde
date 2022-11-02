@@ -99,7 +99,7 @@ void draw(){
   // for shooting a billiard
   drawVelLine();
   
-  showTime();
+  //showTime();
   ++time;
 }
 
