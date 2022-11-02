@@ -47,7 +47,7 @@ The ball to bump interaction can be thought as a *circle-line* interaction. The 
 ### Ball to Angled Piece Interaction
 The ball to Angled Piece Interaction is a little bit more complicated than the rest. The angle piece comprises of a series of pixels, so this interaction can be thought as a circle-point interaction. The resolution direction is found using the normal of the gradient of the vector that connects the firsy vertex of the angled piece to the second.
 
-![](images/ballToBump.gif)
+![](images/ballToAngledPiece.gif)
 
 #### Penetration Resolution
 
