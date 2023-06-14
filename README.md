@@ -29,29 +29,12 @@ The ball to ball interaction is the most important interaction and defining aspe
 
 ![](images/ballToBall.gif)
 
-#### Penetration Resolution
-As soon as the balls are found to be intersecting each other, one of the intersecting balls is pushed back to its initial collision position.
-#### Collision Resolution
-The changes in velocities of the two balls is found using simplistic Newtonian conservation of momentum.
-
 ### Ball to Bump Interaction
 The ball to bump interaction can be thought as a *circle-line* interaction. The circle is the ball and the line is the outer line of the bump object.
 
 ![](images/ballToBump.gif)
 
-#### Penetration Resolution
-
-#### Collision Resolution
-
-
 ### Ball to Angled Piece Interaction
 The ball to Angled Piece Interaction is a little bit more complicated than the rest. The angle piece comprises of a series of pixels, so this interaction can be thought as a circle-point interaction. The resolution direction is found using the normal of the gradient of the vector that connects the firsy vertex of the angled piece to the second.
 
 ![](images/ballToAngledPiece.gif)
-
-#### Penetration Resolution
-
-#### Collision Resolution
-
-
-
